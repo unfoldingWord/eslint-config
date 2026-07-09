@@ -1,6 +1,6 @@
 {
   "name": "@unfoldingword/eslint-config",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "description": "ESLint and Prettier Config For UnfoldingWord",
   "keywords": [
     "javascript",
@@ -14,12 +14,20 @@
   ],
   "main": "index.js",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unfoldingWord/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/unfoldingWord/eslint-config/issues"
+  },
+  "homepage": "https://github.com/unfoldingWord/eslint-config#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.6.0",
     "eslint-config-prettier": "^6.11.0",
-    "eslint-config-recommended": "^4.0.0",
-    "prettier": "^2.0.5"
+    "eslint-config-recommended": "^4.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
